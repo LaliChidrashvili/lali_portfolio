@@ -1,0 +1,16 @@
+current directory: /Users/lalichidrashvili/Desktop/lali_portfolio/vendor/bundle/ruby/3.4.0/gems/json-2.1.0/ext/json
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/lalichidrashvili/Desktop/lali_portfolio/vendor/bundle/ruby/3.4.0/gems/json-2.1.0/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20250611-22140-c8lc77 sitelibdir\=./.gem.20250611-22140-c8lc77 clean
+
+current directory: /Users/lalichidrashvili/Desktop/lali_portfolio/vendor/bundle/ruby/3.4.0/gems/json-2.1.0/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20250611-22140-c8lc77 sitelibdir\=./.gem.20250611-22140-c8lc77
+make: Nothing to be done for `all'.
+
+current directory: /Users/lalichidrashvili/Desktop/lali_portfolio/vendor/bundle/ruby/3.4.0/gems/json-2.1.0/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20250611-22140-c8lc77 sitelibdir\=./.gem.20250611-22140-c8lc77 install
+
+current directory: /Users/lalichidrashvili/Desktop/lali_portfolio/vendor/bundle/ruby/3.4.0/gems/json-2.1.0/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20250611-22140-c8lc77 sitelibdir\=./.gem.20250611-22140-c8lc77 clean

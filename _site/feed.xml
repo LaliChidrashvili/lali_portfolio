@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title></title>
+        <description></description>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Wed, 18 Jun 2025 15:33:26 +0400</pubDate>
+        <lastBuildDate>Wed, 18 Jun 2025 15:33:26 +0400</lastBuildDate>
+        <generator>Jekyll v4.3.4</generator>
+        
+            <item>
+                <title>Smooth Background Animation</title>
+                <description>&lt;video width=&quot;100%&quot; autoplay=&quot;&quot; muted=&quot;&quot; autoreplay=&quot;&quot; loop=&quot;&quot;&gt; &lt;source src=&quot;/images/projects/backgroundAnimation/video.mp4&quot; type=&quot;video/mp4&quot; /&gt;  &lt;/video&gt;
+
+</description>
+                <pubDate>Fri, 14 Mar 2025 16:04:35 +0400</pubDate>
+                <link>http://localhost:4000/project/backgroundanimation</link>
+                <guid isPermaLink="true">http://localhost:4000/project/backgroundanimation</guid>
+                
+                <category>WebGl</category>
+                
+                <category>Threejs</category>
+                
+                <category>GLSL</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Sublte Blob-like Animation</title>
+                <description>&lt;video width=&quot;100%&quot; autoplay=&quot;&quot; autoreplay=&quot;&quot; muted=&quot;&quot; loop=&quot;&quot; src=&quot;/images/projects/blobAnimation/video.mp4&quot;&gt; &lt;/video&gt;
+
+&lt;p&gt;Developed during my freelancing career, this project was a demonstration of my fast-delivery skills and quality.&lt;/p&gt;
+</description>
+                <pubDate>Fri, 14 Mar 2025 16:04:35 +0400</pubDate>
+                <link>http://localhost:4000/project/blobanimation</link>
+                <guid isPermaLink="true">http://localhost:4000/project/blobanimation</guid>
+                
+                <category>WebGl</category>
+                
+                <category>Threejs</category>
+                
+                <category>GLSL</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Instanced Logo Animation</title>
+                <description>&lt;video width=&quot;100%&quot; autoplay=&quot;&quot; autoreplay=&quot;&quot; muted=&quot;&quot; loop=&quot;&quot;&gt; &lt;source src=&quot;/images/projects/logoAnimation/video.mp4&quot; type=&quot;video/mp4&quot; /&gt;  &lt;/video&gt;
+
+&lt;p&gt;This project was developed as part of my freelancing journey, bringing client visions to life with tailored solutions.&lt;/p&gt;
+</description>
+                <pubDate>Fri, 14 Mar 2025 16:04:35 +0400</pubDate>
+                <link>http://localhost:4000/project/logoanimation</link>
+                <guid isPermaLink="true">http://localhost:4000/project/logoanimation</guid>
+                
+                <category>WebGl</category>
+                
+                <category>Threejs</category>
+                
+                <category>GLSL</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Instanced Cube Animation</title>
+                <description>&lt;video width=&quot;100%&quot; autoplay=&quot;&quot; muted=&quot;&quot; autoreplay=&quot;&quot; loop=&quot;&quot;&gt; &lt;source src=&quot;/images/projects/instancedcube/video.mp4&quot; /&gt;  &lt;/video&gt;
+
+</description>
+                <pubDate>Mon, 26 Aug 2024 16:01:35 +0400</pubDate>
+                <link>http://localhost:4000/project/instancedcube</link>
+                <guid isPermaLink="true">http://localhost:4000/project/instancedcube</guid>
+                
+                <category>WebGl</category>
+                
+                <category>Threejs</category>
+                
+                <category>GLSL</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Couch Configurator</title>
+                <description>&lt;video width=&quot;100%&quot; autoplay=&quot;&quot; muted=&quot;&quot; autoreplay=&quot;&quot; loop=&quot;&quot;&gt; &lt;source src=&quot;/images/projects/configurator/video.mp4&quot; /&gt;  &lt;/video&gt;
+
+</description>
+                <pubDate>Mon, 26 Aug 2024 16:01:35 +0400</pubDate>
+                <link>http://localhost:4000/project/configurator-copy</link>
+                <guid isPermaLink="true">http://localhost:4000/project/configurator-copy</guid>
+                
+                <category>WebGl</category>
+                
+                <category>Threejs</category>
+                
+                <category>React Three Fiber</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>GPGPU Particles</title>
+                <description>&lt;video width=&quot;100%&quot; autoplay=&quot;&quot; muted=&quot;&quot; autoreplay=&quot;&quot; loop=&quot;&quot;&gt; &lt;source src=&quot;/images/projects/gpgpu/video.mp4&quot; /&gt;  &lt;/video&gt;
+
+</description>
+                <pubDate>Sat, 10 Aug 2024 16:01:35 +0400</pubDate>
+                <link>http://localhost:4000/project/gpgpuparticles</link>
+                <guid isPermaLink="true">http://localhost:4000/project/gpgpuparticles</guid>
+                
+                <category>WebGl</category>
+                
+                <category>Threejs</category>
+                
+                <category>GPGPU Computatuion</category>
+                
+                <category>SimplexNoise3D</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Disorted Image</title>
+                <description>&lt;video width=&quot;100%&quot; autoplay=&quot;&quot; muted=&quot;&quot; autoreplay=&quot;&quot; loop=&quot;&quot;&gt; &lt;source src=&quot;/images/projects/disortedimage/video.mp4&quot; /&gt;  &lt;/video&gt;
+
+&lt;p&gt;Disorted Image was created with Threejs  &lt;a href=&quot;https://threejs.org/docs/?q=Data#api/en/textures/DataTexture&quot;&gt; Data Texture&lt;/a&gt; , Threejs &lt;a href=&quot;https://threejs.org/docs/?q=raycast#api/en/core/Raycaster&quot;&gt; Raycaster&lt;/a&gt; along with some &lt;a src=&quot;https://www.khronos.org/opengl/wiki/OpenGL_Shading_Language&quot;&gt; GLSL &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Live demo : &lt;a href=&quot;https://distorted-image.vercel.app/&quot;&gt; https://distorted-image.vercel.app/ &lt;/a&gt;&lt;/p&gt;
+
+</description>
+                <pubDate>Sat, 13 Aug 2022 12:45:00 +0400</pubDate>
+                <link>http://localhost:4000/project/disortedimage</link>
+                <guid isPermaLink="true">http://localhost:4000/project/disortedimage</guid>
+                
+                <category>webgl</category>
+                
+                <category>threejs</category>
+                
+                <category>GlSl</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Curl Tubes</title>
+                <description>&lt;video width=&quot;100%&quot; autoplay=&quot;&quot; muted=&quot;&quot; autoreplay=&quot;&quot; loop=&quot;&quot;&gt; &lt;source src=&quot;/images/projects/curltubes/video.mp4&quot; /&gt;  &lt;/video&gt;
+
+&lt;p&gt;Curl Tubes were  created using Threejs  &lt;a href=&quot;https://threejs.org/docs/#api/en/extras/curves/CatmullRomCurve3&quot;&gt; CatmullRomCurve3 &lt;/a&gt; , Threejs &lt;a href=&quot;https://threejs.org/docs/?q=raycast#api/en/core/Raycaster&quot;&gt; Raycaster&lt;/a&gt; , &lt;a href=&quot;https://www.npmjs.com/package/simplex-noise&quot;&gt; simplex Noise  &lt;/a&gt;  , &lt;a href=&quot;https://al-ro.github.io/projects/embers/&quot;&gt; 3D Curl Noise &lt;/a&gt; and few dozen lines of   &lt;a src=&quot;https://www.khronos.org/opengl/wiki/OpenGL_Shading_Language&quot;&gt; GLSL &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Live demo : &lt;a href=&quot;https://curl-tubes.vercel.app/&quot;&gt;  curl-tubes.vercel.app &lt;/a&gt;&lt;/p&gt;
+
+</description>
+                <pubDate>Wed, 10 Aug 2022 16:01:35 +0400</pubDate>
+                <link>http://localhost:4000/project/curltubes</link>
+                <guid isPermaLink="true">http://localhost:4000/project/curltubes</guid>
+                
+                <category>WebGl</category>
+                
+                <category>Threejs</category>
+                
+                <category>SimplexNoise</category>
+                
+                <category>GlSl</category>
+                
+                <category>ComputeCurl</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Lines In Space</title>
+                <description>&lt;video width=&quot;100%&quot; autoplay=&quot;&quot; muted=&quot;&quot; autoreplay=&quot;&quot; loop=&quot;&quot;&gt; &lt;source src=&quot;/images/projects/linesinspace/video.mp4&quot; /&gt;  &lt;/video&gt;
+
+&lt;p&gt;Using Threejs &lt;a href=&quot;https://threejs.org/docs/#api/en/objects/Points&quot;&gt; Points&lt;/a&gt; , &lt;a href=&quot;https://threejs.org/examples/webgl_lines_fat.html&quot;&gt; Fat Lines &lt;/a&gt; , &lt;a href=&quot;https://greensock.com/gsap/&quot;&gt; GSAP &lt;/a&gt; and some basic math&lt;/p&gt;
+
+&lt;p&gt;Live demo : &lt;a href=&quot;https://linesbetweenpoints.vercel.app/&quot;&gt;  linesbetweenpoints.vercel.app &lt;/a&gt;&lt;/p&gt;
+
+</description>
+                <pubDate>Sun, 10 Jul 2022 16:01:35 +0400</pubDate>
+                <link>http://localhost:4000/project/linesbetweenpoints</link>
+                <guid isPermaLink="true">http://localhost:4000/project/linesbetweenpoints</guid>
+                
+                <category>WebGl</category>
+                
+                <category>Threejs</category>
+                
+                <category>GSAP</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Georgian  Svetiskhoveli Catherdral</title>
+                <description>&lt;video width=&quot;100%&quot; autoplay=&quot;&quot; muted=&quot;&quot; autoreplay=&quot;&quot; loop=&quot;&quot;&gt; &lt;source src=&quot;/images/projects/svetistskoveli/video.mp4&quot; /&gt;  &lt;/video&gt;
+
+&lt;p&gt;Using 3D Model of  &lt;a href=&quot;https://sketchfab.com/3d-models/svetitskhoveli-cathedral-mtskheta-georgia-22362072fe5d4bd08ea78e89df4b3e4c?fbclid=IwAR2iA0eEk9YJIPxLKZHvbIx9sQjKuEgotWlYS168RsIoxBRN6CqraHd5nXI&quot;&gt; Svetiskhoveli Catherdral&lt;/a&gt; , Threejs &lt;a href=&quot;https://threejs.org/docs/#examples/en/loaders/GLTFLoader&quot;&gt; GLTFLoader &lt;/a&gt; ,  &lt;a href=&quot;https://greensock.com/gsap/&quot;&gt; GSAP &lt;/a&gt; , &lt;a herf=&quot;https://sbcode.net/threejs/animate-on-scroll/&quot;&gt; Camera Animation On Scroll &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Live demo : &lt;a href=&quot;https://svetitskhoveli-cathedral.vercel.app/&quot;&gt;  svetitskhoveli-cathedral.vercel.app/ &lt;/a&gt;&lt;/p&gt;
+
+</description>
+                <pubDate>Mon, 27 Jun 2022 16:01:35 +0400</pubDate>
+                <link>http://localhost:4000/project/svetiskoveli</link>
+                <guid isPermaLink="true">http://localhost:4000/project/svetiskoveli</guid>
+                
+                <category>WebGl</category>
+                
+                <category>Threejs</category>
+                
+                <category>GSAP</category>
+                
+                
+            </item>
+        
+    </channel>
+</rss>

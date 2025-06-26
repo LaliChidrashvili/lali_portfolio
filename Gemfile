@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+gem "bundler"
+gem "jekyll"
+gem "jekyll-paginate"
+gem "jekyll-sitemap"
+gem "webrick", "~> 1.7"
+gem "json", "2.1.0"
+gem "csv"
+gem "base64"
+gem "bigdecimal"
