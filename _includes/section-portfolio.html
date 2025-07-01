@@ -36,7 +36,15 @@
         {% for photo in site.data.settings.portfolio.portfolio__gallery %}
         <div class="col col-4 col-d-6 col-t-12">
           <div class="portfolio__item">
-            <a href="/project/chord" class="portfolio__link">
+            {% if photo.title == "Bubble Visualization" %}
+              <a href="/project/bubble" class="portfolio__link">
+            {% elsif photo.title == "Chord Visualization" %}
+              <a href="/project/chord" class="portfolio__link">
+            {% elsif photo.title == "Network Visualization" %}
+              <a href="/project/network" class="portfolio__link">
+            {% else %}
+              <a href="#" class="portfolio__link">
+            {% endif %}
               <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
               {% if photo.image contains '.mp4' %}
                 <video class="portfolio__image lazy" muted loop autoplay>
