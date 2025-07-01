@@ -32,26 +32,19 @@
 
   <div class="portfolio__gallery animate">
     <div class="container">
-      <!-- <div class="row">
+      <div class="row">
         {% for photo in site.data.settings.portfolio.portfolio__gallery %}
         <div class="col col-4 col-d-6 col-t-12">
           <div class="portfolio__item">
-            <a href="{% if photo.video %}{{photo.video}}{% else %}{{photo.image}}{% endif %}" class="portfolio__link glightbox" {% if photo.video %}aria-label="Video"{% else %}data-glightbox='title: {{photo.title}}; description: {{photo.description}}; descPosition: bottom;'{% endif %}>
+            <a href="/project/chord" class="portfolio__link">
               <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
-              <img data-src="{{photo.image}}" class="portfolio__image lazy" alt="{{photo.title}}">
-            </a>
-           </div>
-        </div>
-        {% endfor %}
-      </div> -->
-
-        <div class="row">
-        {% for post in site.posts %}
-        <div class="col col-4 col-d-6 col-t-12">
-          <div class="portfolio__item">
-            <a href="{{post.url}}" class="portfolio__link" data-glightbox='title: {{photo.title}}; description: {{photo.description}}; descPosition: bottom;'>
-              <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
-              <img data-src="{{post.image}}" class="portfolio__image lazy" alt="{{photo.title}}">
+              {% if photo.image contains '.mp4' %}
+                <video class="portfolio__image lazy" muted loop autoplay>
+                  <source src="{{photo.image}}" type="video/mp4">
+                </video>
+              {% else %}
+                <img data-src="{{photo.image}}" class="portfolio__image lazy" alt="{{photo.title}}">
+              {% endif %}
             </a>
            </div>
         </div>

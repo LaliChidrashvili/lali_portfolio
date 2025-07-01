@@ -34,41 +34,10 @@ hero:
 portfolio:
   portfolio__title: Portfolio
   portfolio__gallery:
-    - image: /images/gallery-01.jpg
-      title: Samantha Gades
-      description: Brown photo frame beside wall <a href="https://unsplash.com/photos/8Od75hgzb9Y">Unsplash</a>
-
-    - image: /images/gallery-02.jpg
-      title: Paula Vermeulen
-      description: Gray mountain covered by mountain <a href="https://unsplash.com/photos/_f2m3mEkaaU">Unsplash</a>
-
-    - image: /images/gallery-03.jpg
-      title: Bench Accounting
-      description: White wooden table near brown chair <a href="https://unsplash.com/photos/nvzvOPQW0gc">Unsplash</a>
-
-    - image: /images/gallery-04.jpg
-      title: Nord Wood
-      description: White ceramic mug <a href="https://unsplash.com/photos/nDd3dIkkOLo">Unsplash</a>
-
-    - image: /images/gallery-05.jpg
-      title: Luca Bravo
-      description: White ribs in a facade against a white sky <a href="https://unsplash.com/photos/alS7ewQ41M8">Unsplash</a>
-
-    - image: /images/gallery-06.jpg
-      title: Isaac Benhesed
-      description: Minimalist black coffee <a href="https://unsplash.com/photos/onLbXleIkds">Unsplash</a>
-
-    - image: /images/gallery-07.jpg
-      title: Water Journal
-      description: Water Journal is a bi-annual publication exploring the beauty and complexity of all things water <a href="https://unsplash.com/photos/EbuaKnSm8Zw">Unsplash</a>
-
-    - image: /images/gallery-08.jpg
-      title: Luca Bravo
-      description: Worms eye view of city buildings <a href="https://unsplash.com/photos/a6x7YPiNxwI">Unsplash</a>
-
-    - image: /images/gallery-09.jpg
-      title: Books and Laptop
-      description: Silver laptop computer with two books on the top <a href="https://unsplash.com/photos/fFIAKABImf4">Unsplash</a>
+    - image: /images/projects/chord/chord.mp4
+      video: /images/projects/chord/chord.mp4
+      title: Chord Visualization
+      description: Interactive chord diagram visualization with D3.js
 
 
 #-------------------------------
@@ -84,7 +53,7 @@ mailchimp:
 # Footer Settings
 social:
 - {icon: "ion-logo-github", color: "#55acee", label: Github, link: "https://github.com/LaliChidrashvili"}
-- {icon: "ion-logo-google", color: "#55acee", label: Gmail, link: "lalichidrashvili10@gmail.com"}
+- {icon: "ion-logo-google", color: "#55acee", label: Gmail, link: "/contact/"}
 # - {icon: "ion-logo-linkedin", color: "#55acee", label: Linkedin, link: "https://linkedin.com"}
 # - {icon: "ion-logo-twitter", color: "#55acee", label: Twitter, link: "https://twitter.com"}
 # - {icon: "ion-logo-facebook", color: "#3b5999", label: Facebook, link: "https://facebook.com"}
