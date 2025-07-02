@@ -38,8 +38,8 @@ portfolio:
       video: /images/projects/bubble/bubble.mp4
       title: Bubble Visualization
       description: Interactive bubble chart visualization with D3.js
-    - image: /images/projects/chord/chord.mp4
-      video: /images/projects/chord/chord.mp4
+    - image: /images/projects/chord/chord.mp4?v=4
+      video: /images/projects/chord/chord.mp4?v=4
       title: Chord Visualization
       description: Interactive chord diagram visualization with D3.js
     - image: /images/projects/network/network.mp4
