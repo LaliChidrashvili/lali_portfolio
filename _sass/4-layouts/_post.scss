@@ -3,14 +3,19 @@
 .page {
   max-width: 760px;
   margin: 0 auto 60px;
-  color: var(--text-color);
+
+  /* Regular paragraph text in posts should remain black */
+  p {
+    color: var(--text-color);
+  }
 
   a {
     font-weight: 500;
     border-bottom: 1px solid var(--border-color);
+    color: var(--link-color);
 
     &:hover {
-      color: var(--link-color);
+      color: var(--link-color-hover);
       border-bottom-color: var(--link-color-hover);
     }
   }
@@ -63,8 +68,8 @@
     border: none;
     border-radius: 8px;
     color: var(--heading-font-color);
-    transition: none;
     background-color: var(--background-alt-color);
+    transition: none;
   
     &:last-child {
       margin-right: 0;
@@ -77,6 +82,7 @@
   margin-bottom: 20px;
   font-size: 62px;
   line-height: 1.2;
+  color: var(--heading-font-color);
 
   @media only screen and (max-width: 1140px) {
     font-size: 64px;
@@ -96,13 +102,13 @@
   font-size: 14px;
   line-height: 1;
   font-weight: 700;
-  color: var(--heading-font-color);
+  color: var(--text-color);
 
   .post__author {
     display: inline-block;
     text-decoration: underline;
     text-decoration-color: transparent;
-    color: var(--heading-font-color);
+    color: var(--link-color);
     transition: text-decoration-color .35s;
 
     &:hover {

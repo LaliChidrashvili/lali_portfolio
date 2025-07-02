@@ -21,10 +21,11 @@
   letter-spacing: -1px;
   line-height: 1;
   font-weight: 700;
+  color: var(--heading-font-color);
   transition: none;
 
   &:hover {
-    color: var(--heading-font-color);
+    color: var(--link-color-hover);
   }
 
   @media only screen and (max-width: $mobile) {
@@ -103,7 +104,7 @@
     line-height: 1;
     border-radius: 50%;
     color: var(--heading-font-color);
-    background: var(--background-alt-color);
+    background-color: var(--background-alt-color);
     cursor: pointer;
 
     &:hover {
