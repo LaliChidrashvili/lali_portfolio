@@ -42,14 +42,14 @@ portfolio:
       video: /images/projects/chord/chord.mp4?v=4
       title: Chord Visualization
       description: Interactive chord diagram visualization with D3.js
-    - image: /images/projects/network/network.mp4
-      video: /images/projects/network/network.mp4
-      title: Network Visualization
-      description: Interactive network graph visualization with D3.js
     - image: /images/projects/gantt/gantt.mp4
       video: /images/projects/gantt/gantt.mp4
       title: Gantt Visualization
       description: Interactive Gantt chart visualization with D3.js
+    - image: /images/projects/network/network.mp4
+      video: /images/projects/network/network.mp4
+      title: Network Visualization
+      description: Interactive network graph visualization with D3.js
     - image: /images/projects/treemap/treemap.mp4
       video: /images/projects/treemap/treemap.mp4
       title: Treemap Visualization
