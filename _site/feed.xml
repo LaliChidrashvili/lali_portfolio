@@ -3,10 +3,10 @@
     <channel>
         <title></title>
         <description></description>
-        <link>http://0.0.0.0:4000/</link>
-        <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 02 Jul 2025 19:58:27 +0400</pubDate>
-        <lastBuildDate>Wed, 02 Jul 2025 19:58:27 +0400</lastBuildDate>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Fri, 04 Jul 2025 18:06:15 +0400</pubDate>
+        <lastBuildDate>Fri, 04 Jul 2025 18:06:15 +0400</lastBuildDate>
         <generator>Jekyll v4.3.4</generator>
         
             <item>
@@ -19,8 +19,8 @@
 &lt;p&gt;Interactive chord diagram visualization created with D3.js. This project demonstrates complex relationship visualization in an elegant and intuitive way.&lt;/p&gt;
 </description>
                 <pubDate>Thu, 22 May 2025 00:00:00 +0400</pubDate>
-                <link>http://0.0.0.0:4000/project/chord</link>
-                <guid isPermaLink="true">http://0.0.0.0:4000/project/chord</guid>
+                <link>http://localhost:4000/project/chord</link>
+                <guid isPermaLink="true">http://localhost:4000/project/chord</guid>
                 
                 <category>D3.js</category>
                 
@@ -41,8 +41,8 @@
 &lt;p&gt;Interactive bubble chart visualization created with D3.js. This project showcases dynamic data representation through animated bubble interactions and smooth transitions.&lt;/p&gt;
 </description>
                 <pubDate>Thu, 20 Mar 2025 00:00:00 +0400</pubDate>
-                <link>http://0.0.0.0:4000/project/bubble</link>
-                <guid isPermaLink="true">http://0.0.0.0:4000/project/bubble</guid>
+                <link>http://localhost:4000/project/bubble</link>
+                <guid isPermaLink="true">http://localhost:4000/project/bubble</guid>
                 
                 <category>D3.js</category>
                 
@@ -63,36 +63,14 @@
 &lt;p&gt;Interactive treemap visualization created with D3.js. This project showcases hierarchical data representation with dynamic zooming and smooth transitions for exploring nested data structures.&lt;/p&gt;
 </description>
                 <pubDate>Mon, 17 Feb 2025 00:00:00 +0400</pubDate>
-                <link>http://0.0.0.0:4000/project/treemap</link>
-                <guid isPermaLink="true">http://0.0.0.0:4000/project/treemap</guid>
+                <link>http://localhost:4000/project/treemap</link>
+                <guid isPermaLink="true">http://localhost:4000/project/treemap</guid>
                 
                 <category>D3.js</category>
                 
                 <category>visualization</category>
                 
                 <category>treemap</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>Gantt Chart Visualization</title>
-                <description>&lt;video width=&quot;90%&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; preload=&quot;metadata&quot; style=&quot;display: block; margin: 0 auto 10px auto;&quot;&gt;
-  &lt;source src=&quot;/images/projects/gantt/gantt2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-  Your browser does not support the video tag.
-&lt;/video&gt;
-
-&lt;p&gt;Interactive Gantt chart visualization created with D3.js. This project demonstrates project timeline management with dynamic task scheduling and progress tracking visualization.&lt;/p&gt;
-</description>
-                <pubDate>Mon, 10 Feb 2025 00:00:00 +0400</pubDate>
-                <link>http://0.0.0.0:4000/project/gantt</link>
-                <guid isPermaLink="true">http://0.0.0.0:4000/project/gantt</guid>
-                
-                <category>D3.js</category>
-                
-                <category>visualization</category>
-                
-                <category>gantt</category>
                 
                 
             </item>
@@ -106,15 +84,37 @@
 
 &lt;p&gt;Interactive network graph visualization created with D3.js. This project demonstrates complex network relationships with force-directed layout and dynamic node interactions.&lt;/p&gt;
 </description>
-                <pubDate>Wed, 29 Jan 2025 00:00:00 +0400</pubDate>
-                <link>http://0.0.0.0:4000/project/network</link>
-                <guid isPermaLink="true">http://0.0.0.0:4000/project/network</guid>
+                <pubDate>Sat, 15 Feb 2025 00:00:00 +0400</pubDate>
+                <link>http://localhost:4000/project/network</link>
+                <guid isPermaLink="true">http://localhost:4000/project/network</guid>
                 
                 <category>D3.js</category>
                 
                 <category>visualization</category>
                 
                 <category>network</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Gantt Chart Visualization</title>
+                <description>&lt;video width=&quot;90%&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; preload=&quot;metadata&quot; style=&quot;display: block; margin: 0 auto 10px auto;&quot;&gt;
+  &lt;source src=&quot;/images/projects/gantt/gantt2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+
+&lt;p&gt;Interactive Gantt chart visualization created with D3.js. This project demonstrates project timeline management with dynamic task scheduling and progress tracking visualization.&lt;/p&gt;
+</description>
+                <pubDate>Wed, 29 Jan 2025 00:00:00 +0400</pubDate>
+                <link>http://localhost:4000/project/gantt</link>
+                <guid isPermaLink="true">http://localhost:4000/project/gantt</guid>
+                
+                <category>D3.js</category>
+                
+                <category>visualization</category>
+                
+                <category>gantt</category>
                 
                 
             </item>

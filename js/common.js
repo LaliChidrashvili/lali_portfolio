@@ -5,13 +5,12 @@ document.addEventListener("DOMContentLoaded", function() {
     menuOpenIcon = document.querySelector(".nav__icon-menu"),
     menuCloseIcon = document.querySelector(".nav__icon-close"),
     menuList = document.querySelector(".main-nav"),
-    toggleTheme = document.querySelector(".toggle-theme"),
     portfolioViewButton = document.querySelector('.portfolio__toggle'),
     btnScrollToTop = document.querySelector(".top");
 
 
   /* =======================================================
-  // Menu + Theme Switcher + Toggle list view
+  // Menu + Toggle list view
   ======================================================= */
   menuOpenIcon.addEventListener("click", () => {
     menuOpen();
@@ -19,10 +18,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
   menuCloseIcon.addEventListener("click", () => {
     menuClose();
-  });
-
-  toggleTheme.addEventListener("click", () => {
-    darkMode();
   });
 
   if (portfolioViewButton) {
@@ -37,20 +32,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function menuClose() {
     menuList.classList.remove("is-open");
-  }
-
-
-  // Theme Switcher
-  function darkMode() {
-    if (html.classList.contains('dark-mode')) {
-      html.classList.remove('dark-mode');
-      localStorage.removeItem("theme");
-      document.documentElement.removeAttribute("dark");
-    } else {
-      html.classList.add('dark-mode');
-      localStorage.setItem("theme", "dark");
-      document.documentElement.setAttribute("dark", "");
-    }
   }
 
 
