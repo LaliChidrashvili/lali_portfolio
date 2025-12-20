@@ -25,8 +25,8 @@ menu__settings:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Lali's D3.js Portfolio
-  hero__description:  Creative, insightfull and beautifull experiences.
+  hero__title: Lali's Data Visualization & Interactive Design
+  hero__description:  Clear, interactive, and meaningful visualizations
 
 
 #-------------------------------
@@ -54,6 +54,22 @@ portfolio:
       video: /images/projects/treemap/treemap.mp4
       title: Treemap Visualization
       description: Interactive treemap visualization with D3.js
+    - image: /images/projects/line/line.mp4
+      video: /images/projects/line/line.mp4
+      title: Line Visualization
+      description: Interactive line chart visualization with D3.js and Svelte
+    - image: /images/projects/fan/fan.mp4
+      video: /images/projects/fan/fan.mp4
+      title: Fan Visualization
+      description: Interactive fan chart visualization with D3.js and Svelte
+    - image: /images/projects/spike/spike.mp4
+      video: /images/projects/spike/spike.mp4
+      title: Spike Visualization
+      description: Interactive spike chart visualization with D3.js and Svelte
+    - image: /images/projects/radar/radar.mp4
+      video: /images/projects/radar/radar.mp4
+      title: Radar Visualization
+      description: Interactive radar chart visualization with D3.js and Svelte
 
 
 #-------------------------------

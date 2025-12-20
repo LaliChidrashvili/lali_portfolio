@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
   /* =======================
-  // LazyLoad Images
+  // LazyLoad Images and Videos
   ======================= */
   var lazyLoadInstance = new LazyLoad({
     elements_selector: ".lazy"

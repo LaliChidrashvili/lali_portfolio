@@ -5,9 +5,109 @@
         <description></description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 04 Jul 2025 18:06:15 +0400</pubDate>
-        <lastBuildDate>Fri, 04 Jul 2025 18:06:15 +0400</lastBuildDate>
+        <pubDate>Sat, 20 Dec 2025 15:01:02 +0400</pubDate>
+        <lastBuildDate>Sat, 20 Dec 2025 15:01:02 +0400</lastBuildDate>
         <generator>Jekyll v4.3.4</generator>
+        
+            <item>
+                <title>Radar Visualization</title>
+                <description>&lt;video width=&quot;90%&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; preload=&quot;metadata&quot; style=&quot;display: block; margin: 0 auto 10px auto;&quot;&gt;
+  &lt;source src=&quot;/images/projects/radar/radar2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+
+&lt;p&gt;Interactive radar chart visualization created with D3.js and Svelte. This project showcases dynamic data representation through animated radar interactions and smooth transitions.&lt;/p&gt;
+
+</description>
+                <pubDate>Sun, 21 Sep 2025 00:00:00 +0400</pubDate>
+                <link>http://localhost:4000/project/radar</link>
+                <guid isPermaLink="true">http://localhost:4000/project/radar</guid>
+                
+                <category>D3.js</category>
+                
+                <category>Svelte</category>
+                
+                <category>visualization</category>
+                
+                <category>radar</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Spike Visualization</title>
+                <description>&lt;video width=&quot;90%&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; preload=&quot;metadata&quot; style=&quot;display: block; margin: 0 auto 10px auto;&quot;&gt;
+  &lt;source src=&quot;/images/projects/spike/spike2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+
+&lt;p&gt;Interactive spike chart visualization created with D3.js and Svelte. This project demonstrates dynamic data representation through animated spike interactions and smooth transitions.&lt;/p&gt;
+
+</description>
+                <pubDate>Wed, 17 Sep 2025 00:00:00 +0400</pubDate>
+                <link>http://localhost:4000/project/spike</link>
+                <guid isPermaLink="true">http://localhost:4000/project/spike</guid>
+                
+                <category>D3.js</category>
+                
+                <category>Svelte</category>
+                
+                <category>visualization</category>
+                
+                <category>spike</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Line Visualization</title>
+                <description>&lt;video width=&quot;90%&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; preload=&quot;metadata&quot; style=&quot;display: block; margin: 0 auto 10px auto;&quot;&gt;
+  &lt;source src=&quot;/images/projects/line/line2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+
+&lt;p&gt;Interactive line chart visualization created with D3.js and Svelte. This project showcases dynamic data representation through animated line interactions and smooth transitions.&lt;/p&gt;
+
+</description>
+                <pubDate>Sat, 13 Sep 2025 00:00:00 +0400</pubDate>
+                <link>http://localhost:4000/project/line</link>
+                <guid isPermaLink="true">http://localhost:4000/project/line</guid>
+                
+                <category>D3.js</category>
+                
+                <category>Svelte</category>
+                
+                <category>visualization</category>
+                
+                <category>line</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Fan Visualization</title>
+                <description>&lt;video width=&quot;90%&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; preload=&quot;metadata&quot; style=&quot;display: block; margin: 0 auto 10px auto;&quot;&gt;
+  &lt;source src=&quot;/images/projects/fan/fan2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+
+&lt;p&gt;Interactive fan chart visualization created with D3.js and Svelte. This project demonstrates dynamic data representation through animated fan interactions and smooth transitions.&lt;/p&gt;
+
+</description>
+                <pubDate>Fri, 05 Sep 2025 00:00:00 +0400</pubDate>
+                <link>http://localhost:4000/project/fan</link>
+                <guid isPermaLink="true">http://localhost:4000/project/fan</guid>
+                
+                <category>D3.js</category>
+                
+                <category>Svelte</category>
+                
+                <category>visualization</category>
+                
+                <category>fan</category>
+                
+                
+            </item>
         
             <item>
                 <title>Chord Visualization</title>

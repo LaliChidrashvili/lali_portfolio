@@ -43,13 +43,24 @@
   padding-bottom: 62%;
   border-radius: 16px;
   overflow: hidden;
-  background: var(--background-alt-color);
+  background: var(--background-color);
 
   img {
     position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
 }
 
