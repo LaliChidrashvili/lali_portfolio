@@ -5,9 +5,34 @@
         <description></description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 20 Dec 2025 15:01:02 +0400</pubDate>
-        <lastBuildDate>Sat, 20 Dec 2025 15:01:02 +0400</lastBuildDate>
+        <pubDate>Wed, 24 Dec 2025 21:21:30 +0400</pubDate>
+        <lastBuildDate>Wed, 24 Dec 2025 21:21:30 +0400</lastBuildDate>
         <generator>Jekyll v4.3.4</generator>
+        
+            <item>
+                <title>Globe Visualization</title>
+                <description>&lt;video width=&quot;90%&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; preload=&quot;metadata&quot; style=&quot;display: block; margin: 0 auto 10px auto;&quot;&gt;
+  &lt;source src=&quot;/images/projects/globe/globe2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+
+&lt;p&gt;Interactive globe visualization created with Svelte and Plotly. This project demonstrates geographic data representation through an interactive 3D globe with country highlighting and dynamic color scaling.&lt;/p&gt;
+
+</description>
+                <pubDate>Mon, 22 Sep 2025 00:00:00 +0400</pubDate>
+                <link>http://localhost:4000/project/globe</link>
+                <guid isPermaLink="true">http://localhost:4000/project/globe</guid>
+                
+                <category>Svelte</category>
+                
+                <category>Plotly</category>
+                
+                <category>visualization</category>
+                
+                <category>globe</category>
+                
+                
+            </item>
         
             <item>
                 <title>Radar Visualization</title>
@@ -30,6 +55,31 @@
                 <category>visualization</category>
                 
                 <category>radar</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Timeline Chart Visualization</title>
+                <description>&lt;video width=&quot;90%&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; preload=&quot;metadata&quot; style=&quot;display: block; margin: 0 auto 10px auto;&quot;&gt;
+  &lt;source src=&quot;/images/projects/timeline/timeline2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+
+&lt;p&gt;Interactive timeline chart visualization created with D3.js and Svelte. This project demonstrates chronological data representation through an interactive timeline with event markers and smooth animations.&lt;/p&gt;
+
+</description>
+                <pubDate>Fri, 19 Sep 2025 00:00:00 +0400</pubDate>
+                <link>http://localhost:4000/project/timeline</link>
+                <guid isPermaLink="true">http://localhost:4000/project/timeline</guid>
+                
+                <category>D3.js</category>
+                
+                <category>Svelte</category>
+                
+                <category>visualization</category>
+                
+                <category>timeline</category>
                 
                 
             </item>
@@ -80,6 +130,31 @@
                 <category>visualization</category>
                 
                 <category>line</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Grouped Bar Chart Visualization</title>
+                <description>&lt;video width=&quot;90%&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; preload=&quot;metadata&quot; style=&quot;display: block; margin: 0 auto 10px auto;&quot;&gt;
+  &lt;source src=&quot;/images/projects/bar/bar2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+
+&lt;p&gt;Interactive grouped bar chart visualization created with D3.js and Svelte. This project demonstrates categorical data comparison through grouped bars with dynamic interactions and smooth transitions.&lt;/p&gt;
+
+</description>
+                <pubDate>Tue, 09 Sep 2025 00:00:00 +0400</pubDate>
+                <link>http://localhost:4000/project/bar</link>
+                <guid isPermaLink="true">http://localhost:4000/project/bar</guid>
+                
+                <category>D3.js</category>
+                
+                <category>Svelte</category>
+                
+                <category>visualization</category>
+                
+                <category>bar chart</category>
                 
                 
             </item>
@@ -171,50 +246,6 @@
                 <category>visualization</category>
                 
                 <category>treemap</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>Network Visualization</title>
-                <description>&lt;video width=&quot;90%&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; preload=&quot;metadata&quot; style=&quot;display: block; margin: 0 auto 10px auto;&quot;&gt;
-  &lt;source src=&quot;/images/projects/network/network2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-  Your browser does not support the video tag.
-&lt;/video&gt;
-
-&lt;p&gt;Interactive network graph visualization created with D3.js. This project demonstrates complex network relationships with force-directed layout and dynamic node interactions.&lt;/p&gt;
-</description>
-                <pubDate>Sat, 15 Feb 2025 00:00:00 +0400</pubDate>
-                <link>http://localhost:4000/project/network</link>
-                <guid isPermaLink="true">http://localhost:4000/project/network</guid>
-                
-                <category>D3.js</category>
-                
-                <category>visualization</category>
-                
-                <category>network</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>Gantt Chart Visualization</title>
-                <description>&lt;video width=&quot;90%&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; preload=&quot;metadata&quot; style=&quot;display: block; margin: 0 auto 10px auto;&quot;&gt;
-  &lt;source src=&quot;/images/projects/gantt/gantt2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-  Your browser does not support the video tag.
-&lt;/video&gt;
-
-&lt;p&gt;Interactive Gantt chart visualization created with D3.js. This project demonstrates project timeline management with dynamic task scheduling and progress tracking visualization.&lt;/p&gt;
-</description>
-                <pubDate>Wed, 29 Jan 2025 00:00:00 +0400</pubDate>
-                <link>http://localhost:4000/project/gantt</link>
-                <guid isPermaLink="true">http://localhost:4000/project/gantt</guid>
-                
-                <category>D3.js</category>
-                
-                <category>visualization</category>
-                
-                <category>gantt</category>
                 
                 
             </item>

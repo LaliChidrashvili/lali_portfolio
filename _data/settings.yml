@@ -34,30 +34,36 @@ hero:
 portfolio:
   portfolio__title: Portfolio
   portfolio__gallery:
-    - image: /images/projects/bubble/bubble.mp4
-      video: /images/projects/bubble/bubble.mp4
-      title: Bubble Visualization
-      description: Interactive bubble chart visualization with D3.js
-    - image: /images/projects/chord/chord.mp4?v=4
-      video: /images/projects/chord/chord.mp4?v=4
-      title: Chord Visualization
-      description: Interactive chord diagram visualization with D3.js
-    - image: /images/projects/gantt/gantt.mp4
-      video: /images/projects/gantt/gantt.mp4
-      title: Gantt Visualization
-      description: Interactive Gantt chart visualization with D3.js
-    - image: /images/projects/network/network.mp4
-      video: /images/projects/network/network.mp4
-      title: Network Visualization
-      description: Interactive network graph visualization with D3.js
+    # Top tier - Most complex/advanced visualizations
+    - image: /images/projects/globe/globe.mp4
+      video: /images/projects/globe/globe.mp4
+      title: Globe Visualization
+      description: Interactive globe visualization with Svelte and Plotly
     - image: /images/projects/treemap/treemap.mp4
       video: /images/projects/treemap/treemap.mp4
       title: Treemap Visualization
       description: Interactive treemap visualization with D3.js
-    - image: /images/projects/line/line.mp4
-      video: /images/projects/line/line.mp4
-      title: Line Visualization
-      description: Interactive line chart visualization with D3.js and Svelte
+    - image: /images/projects/chord/chord.mp4?v=4
+      video: /images/projects/chord/chord.mp4?v=4
+      title: Chord Visualization
+      description: Interactive chord diagram visualization with D3.js
+    - image: /images/projects/bubble/bubble.mp4
+      video: /images/projects/bubble/bubble.mp4
+      title: Bubble Visualization
+      description: Interactive bubble chart visualization with D3.js
+    - image: /images/projects/network/network.mp4
+      video: /images/projects/network/network.mp4
+      title: Network Visualization
+      description: Interactive network graph visualization with D3.js
+    - image: /images/projects/gantt/gantt.mp4
+      video: /images/projects/gantt/gantt.mp4
+      title: Gantt Visualization
+      description: Interactive Gantt chart visualization with D3.js
+    # Mid tier - Intermediate visualizations
+    - image: /images/projects/radar/radar.mp4
+      video: /images/projects/radar/radar.mp4
+      title: Radar Visualization
+      description: Interactive radar chart visualization with D3.js and Svelte
     - image: /images/projects/fan/fan.mp4
       video: /images/projects/fan/fan.mp4
       title: Fan Visualization
@@ -66,10 +72,19 @@ portfolio:
       video: /images/projects/spike/spike.mp4
       title: Spike Visualization
       description: Interactive spike chart visualization with D3.js and Svelte
-    - image: /images/projects/radar/radar.mp4
-      video: /images/projects/radar/radar.mp4
-      title: Radar Visualization
-      description: Interactive radar chart visualization with D3.js and Svelte
+    # Standard tier - Common visualizations
+    - image: /images/projects/line/line.mp4
+      video: /images/projects/line/line.mp4
+      title: Line Visualization
+      description: Interactive line chart visualization with D3.js and Svelte
+    - image: /images/projects/bar/bar.mp4
+      video: /images/projects/bar/bar.mp4
+      title: Grouped Bar Chart Visualization
+      description: Interactive grouped bar chart visualization with D3.js and Svelte
+    - image: /images/projects/timeline/timeline.mp4
+      video: /images/projects/timeline/timeline.mp4
+      title: Timeline Chart Visualization
+      description: Interactive timeline chart visualization with D3.js and Svelte
 
 
 #-------------------------------
