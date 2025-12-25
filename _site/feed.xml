@@ -5,8 +5,8 @@
         <description></description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 24 Dec 2025 21:21:30 +0400</pubDate>
-        <lastBuildDate>Wed, 24 Dec 2025 21:21:30 +0400</lastBuildDate>
+        <pubDate>Thu, 25 Dec 2025 17:16:07 +0400</pubDate>
+        <lastBuildDate>Thu, 25 Dec 2025 17:16:07 +0400</lastBuildDate>
         <generator>Jekyll v4.3.4</generator>
         
             <item>
@@ -35,7 +35,7 @@
             </item>
         
             <item>
-                <title>Radar Visualization</title>
+                <title>Radar Chart Visualization</title>
                 <description>&lt;video width=&quot;90%&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; preload=&quot;metadata&quot; style=&quot;display: block; margin: 0 auto 10px auto;&quot;&gt;
   &lt;source src=&quot;/images/projects/radar/radar2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
   Your browser does not support the video tag.
@@ -54,7 +54,7 @@
                 
                 <category>visualization</category>
                 
-                <category>radar</category>
+                <category>radar chart</category>
                 
                 
             </item>
@@ -79,13 +79,13 @@
                 
                 <category>visualization</category>
                 
-                <category>timeline</category>
+                <category>timeline chart</category>
                 
                 
             </item>
         
             <item>
-                <title>Spike Visualization</title>
+                <title>Spike Chart Visualization</title>
                 <description>&lt;video width=&quot;90%&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; preload=&quot;metadata&quot; style=&quot;display: block; margin: 0 auto 10px auto;&quot;&gt;
   &lt;source src=&quot;/images/projects/spike/spike2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
   Your browser does not support the video tag.
@@ -104,13 +104,13 @@
                 
                 <category>visualization</category>
                 
-                <category>spike</category>
+                <category>spike chart</category>
                 
                 
             </item>
         
             <item>
-                <title>Line Visualization</title>
+                <title>Line Chart Visualization</title>
                 <description>&lt;video width=&quot;90%&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; preload=&quot;metadata&quot; style=&quot;display: block; margin: 0 auto 10px auto;&quot;&gt;
   &lt;source src=&quot;/images/projects/line/line2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
   Your browser does not support the video tag.
@@ -129,7 +129,7 @@
                 
                 <category>visualization</category>
                 
-                <category>line</category>
+                <category>line chart</category>
                 
                 
             </item>
@@ -160,7 +160,7 @@
             </item>
         
             <item>
-                <title>Fan Visualization</title>
+                <title>Fan Chart Visualization</title>
                 <description>&lt;video width=&quot;90%&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; preload=&quot;metadata&quot; style=&quot;display: block; margin: 0 auto 10px auto;&quot;&gt;
   &lt;source src=&quot;/images/projects/fan/fan2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
   Your browser does not support the video tag.
@@ -179,13 +179,13 @@
                 
                 <category>visualization</category>
                 
-                <category>fan</category>
+                <category>fan chart</category>
                 
                 
             </item>
         
             <item>
-                <title>Chord Visualization</title>
+                <title>Chord Chart Visualization</title>
                 <description>&lt;video width=&quot;90%&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; preload=&quot;metadata&quot; style=&quot;display: block; margin: 0 auto 10px auto;&quot;&gt;
   &lt;source src=&quot;/images/projects/chord/chord2.mp4?v=3&quot; type=&quot;video/mp4&quot; /&gt;
   Your browser does not support the video tag.
@@ -201,13 +201,13 @@
                 
                 <category>visualization</category>
                 
-                <category>chord</category>
+                <category>chord chart</category>
                 
                 
             </item>
         
             <item>
-                <title>Bubble Visualization</title>
+                <title>Bubble Chart Visualization</title>
                 <description>&lt;video width=&quot;90%&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; preload=&quot;metadata&quot; style=&quot;display: block; margin: 0 auto 10px auto;&quot;&gt;
   &lt;source src=&quot;/images/projects/bubble/bubble2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
   Your browser does not support the video tag.
@@ -223,13 +223,13 @@
                 
                 <category>visualization</category>
                 
-                <category>bubble</category>
+                <category>bubble chart</category>
                 
                 
             </item>
         
             <item>
-                <title>Treemap Visualization</title>
+                <title>Treemap Chart Visualization</title>
                 <description>&lt;video width=&quot;90%&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; preload=&quot;metadata&quot; style=&quot;display: block; margin: 0 auto 10px auto;&quot;&gt;
   &lt;source src=&quot;/images/projects/treemap/treemap2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
   Your browser does not support the video tag.
@@ -245,7 +245,7 @@
                 
                 <category>visualization</category>
                 
-                <category>treemap</category>
+                <category>treemap chart</category>
                 
                 
             </item>

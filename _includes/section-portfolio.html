@@ -36,23 +36,23 @@
         {% for photo in site.data.settings.portfolio.portfolio__gallery %}
         <div class="col col-4 col-d-6 col-t-12">
           <div class="portfolio__item">
-            {% if photo.title == "Bubble Visualization" %}
+            {% if photo.title == "Bubble Chart Visualization" %}
               <a href="/project/bubble" class="portfolio__link">
-            {% elsif photo.title == "Chord Visualization" %}
+            {% elsif photo.title == "Chord Chart Visualization" %}
               <a href="/project/chord" class="portfolio__link">
-            {% elsif photo.title == "Network Visualization" %}
+            {% elsif photo.title == "Network Chart Visualization" %}
               <a href="/project/network" class="portfolio__link">
-            {% elsif photo.title == "Gantt Visualization" %}
+            {% elsif photo.title == "Gantt Chart Visualization" %}
               <a href="/project/gantt" class="portfolio__link">
-            {% elsif photo.title == "Treemap Visualization" %}
+            {% elsif photo.title == "Treemap Chart Visualization" %}
               <a href="/project/treemap" class="portfolio__link">
-            {% elsif photo.title == "Fan Visualization" %}
+            {% elsif photo.title == "Fan Chart Visualization" %}
               <a href="/project/fan" class="portfolio__link">
-            {% elsif photo.title == "Line Visualization" %}
+            {% elsif photo.title == "Line Chart Visualization" %}
               <a href="/project/line" class="portfolio__link">
-            {% elsif photo.title == "Spike Visualization" %}
+            {% elsif photo.title == "Spike Chart Visualization" %}
               <a href="/project/spike" class="portfolio__link">
-            {% elsif photo.title == "Radar Visualization" %}
+            {% elsif photo.title == "Radar Chart Visualization" %}
               <a href="/project/radar" class="portfolio__link">
             {% elsif photo.title == "Globe Visualization" %}
               <a href="/project/globe" class="portfolio__link">
@@ -65,7 +65,7 @@
             {% endif %}
               <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
               {% if photo.image contains '.mp4' %}
-                <video class="portfolio__image lazy" muted loop autoplay>
+                <video class="portfolio__image lazy" muted loop autoplay preload="none">
                   <source src="{{photo.image}}" type="video/mp4">
                 </video>
               {% else %}

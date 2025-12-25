@@ -41,41 +41,41 @@ portfolio:
       description: Interactive globe visualization with Svelte and Plotly
     - image: /images/projects/treemap/treemap.mp4
       video: /images/projects/treemap/treemap.mp4
-      title: Treemap Visualization
+      title: Treemap Chart Visualization
       description: Interactive treemap visualization with D3.js
     - image: /images/projects/chord/chord.mp4?v=4
       video: /images/projects/chord/chord.mp4?v=4
-      title: Chord Visualization
+      title: Chord Chart Visualization
       description: Interactive chord diagram visualization with D3.js
     - image: /images/projects/bubble/bubble.mp4
       video: /images/projects/bubble/bubble.mp4
-      title: Bubble Visualization
+      title: Bubble Chart Visualization
       description: Interactive bubble chart visualization with D3.js
     - image: /images/projects/network/network.mp4
       video: /images/projects/network/network.mp4
-      title: Network Visualization
+      title: Network Chart Visualization
       description: Interactive network graph visualization with D3.js
     - image: /images/projects/gantt/gantt.mp4
       video: /images/projects/gantt/gantt.mp4
-      title: Gantt Visualization
+      title: Gantt Chart Visualization
       description: Interactive Gantt chart visualization with D3.js
     # Mid tier - Intermediate visualizations
     - image: /images/projects/radar/radar.mp4
       video: /images/projects/radar/radar.mp4
-      title: Radar Visualization
+      title: Radar Chart Visualization
       description: Interactive radar chart visualization with D3.js and Svelte
     - image: /images/projects/fan/fan.mp4
       video: /images/projects/fan/fan.mp4
-      title: Fan Visualization
+      title: Fan Chart Visualization
       description: Interactive fan chart visualization with D3.js and Svelte
     - image: /images/projects/spike/spike.mp4
       video: /images/projects/spike/spike.mp4
-      title: Spike Visualization
+      title: Spike Chart Visualization
       description: Interactive spike chart visualization with D3.js and Svelte
     # Standard tier - Common visualizations
     - image: /images/projects/line/line.mp4
       video: /images/projects/line/line.mp4
-      title: Line Visualization
+      title: Line Chart Visualization
       description: Interactive line chart visualization with D3.js and Svelte
     - image: /images/projects/bar/bar.mp4
       video: /images/projects/bar/bar.mp4
