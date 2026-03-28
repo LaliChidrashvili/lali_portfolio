@@ -5,9 +5,33 @@
         <description></description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 25 Dec 2025 17:16:07 +0400</pubDate>
-        <lastBuildDate>Thu, 25 Dec 2025 17:16:07 +0400</lastBuildDate>
+        <pubDate>Sat, 28 Mar 2026 21:32:34 +0400</pubDate>
+        <lastBuildDate>Sat, 28 Mar 2026 21:32:34 +0400</lastBuildDate>
         <generator>Jekyll v4.3.4</generator>
+        
+            <item>
+                <title>Geospatial 3D Visualizer</title>
+                <description>&lt;video width=&quot;90%&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; playsinline=&quot;&quot; preload=&quot;metadata&quot; style=&quot;display: block; margin: 0 auto 10px auto;&quot;&gt;
+  &lt;source src=&quot;/images/projects/Geospatial3D/Geospatial2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+
+&lt;p&gt;Interactive 3D map built with Mapbox: global and city-level views, search, quick navigation, and education filters (schools, kindergartens, universities) with highlighted institutions on the map.&lt;/p&gt;
+</description>
+                <pubDate>Sat, 28 Mar 2026 00:00:00 +0400</pubDate>
+                <link>http://localhost:4000/project/geospatial3d</link>
+                <guid isPermaLink="true">http://localhost:4000/project/geospatial3d</guid>
+                
+                <category>Mapbox</category>
+                
+                <category>visualization</category>
+                
+                <category>geospatial</category>
+                
+                <category>3D</category>
+                
+                
+            </item>
         
             <item>
                 <title>Globe Visualization</title>
@@ -224,28 +248,6 @@
                 <category>visualization</category>
                 
                 <category>bubble chart</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>Treemap Chart Visualization</title>
-                <description>&lt;video width=&quot;90%&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; preload=&quot;metadata&quot; style=&quot;display: block; margin: 0 auto 10px auto;&quot;&gt;
-  &lt;source src=&quot;/images/projects/treemap/treemap2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-  Your browser does not support the video tag.
-&lt;/video&gt;
-
-&lt;p&gt;Interactive treemap visualization created with D3.js. This project showcases hierarchical data representation with dynamic zooming and smooth transitions for exploring nested data structures.&lt;/p&gt;
-</description>
-                <pubDate>Mon, 17 Feb 2025 00:00:00 +0400</pubDate>
-                <link>http://localhost:4000/project/treemap</link>
-                <guid isPermaLink="true">http://localhost:4000/project/treemap</guid>
-                
-                <category>D3.js</category>
-                
-                <category>visualization</category>
-                
-                <category>treemap chart</category>
                 
                 
             </item>

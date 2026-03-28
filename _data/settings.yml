@@ -35,26 +35,26 @@ portfolio:
   portfolio__title: Portfolio
   portfolio__gallery:
     # Top tier - Most complex/advanced visualizations
-    - image: /images/projects/globe/globe.mp4
-      video: /images/projects/globe/globe.mp4
-      title: Globe Visualization
-      description: Interactive globe visualization with Svelte and Plotly
-    - image: /images/projects/treemap/treemap.mp4
-      video: /images/projects/treemap/treemap.mp4
-      title: Treemap Chart Visualization
-      description: Interactive treemap visualization with D3.js
+    - image: /images/projects/Geospatial3D/Geospatial.mp4
+      video: /images/projects/Geospatial3D/Geospatial.mp4
+      title: Geospatial 3D Visualizer
+      description: Interactive 3D map with Mapbox, search, and education layers
     - image: /images/projects/chord/chord.mp4?v=4
       video: /images/projects/chord/chord.mp4?v=4
       title: Chord Chart Visualization
       description: Interactive chord diagram visualization with D3.js
+    - image: /images/projects/globe/globe.mp4
+      video: /images/projects/globe/globe.mp4
+      title: Globe Visualization
+      description: Interactive globe visualization with Svelte and Plotly
     - image: /images/projects/bubble/bubble.mp4
       video: /images/projects/bubble/bubble.mp4
       title: Bubble Chart Visualization
       description: Interactive bubble chart visualization with D3.js
-    - image: /images/projects/network/network.mp4
-      video: /images/projects/network/network.mp4
-      title: Network Chart Visualization
-      description: Interactive network graph visualization with D3.js
+    - image: /images/projects/treemap/treemap.mp4
+      video: /images/projects/treemap/treemap.mp4
+      title: Treemap Chart Visualization
+      description: Interactive treemap visualization with D3.js
     - image: /images/projects/gantt/gantt.mp4
       video: /images/projects/gantt/gantt.mp4
       title: Gantt Chart Visualization
@@ -85,6 +85,10 @@ portfolio:
       video: /images/projects/timeline/timeline.mp4
       title: Timeline Chart Visualization
       description: Interactive timeline chart visualization with D3.js and Svelte
+    - image: /images/projects/network/network.mp4
+      video: /images/projects/network/network.mp4
+      title: Network Chart Visualization
+      description: Interactive network graph visualization with D3.js
 
 
 #-------------------------------

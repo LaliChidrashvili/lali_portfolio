@@ -12,6 +12,10 @@
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
+  {% if page.url contains 'geospatial3d' and page.image %}
+  <link rel="preload" href="{{ page.image | relative_url }}" as="video" type="video/mp4">
+  {% endif %}
+
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{% if page.url == "/" %}{{ site.data.settings.title }}{% else %}{{ page.title }} – {{ site.data.settings.title }}{% endif %}">

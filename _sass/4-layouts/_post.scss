@@ -35,6 +35,19 @@
   }
 }
 
+/* Project demo videos: letterbox mattes match page (light) */
+.post__content video {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto 32px;
+  border-radius: 8px;
+  background: var(--background-color);
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  object-position: center;
+}
+
 .post__info,
 .page__info {
   max-width: 760px;
