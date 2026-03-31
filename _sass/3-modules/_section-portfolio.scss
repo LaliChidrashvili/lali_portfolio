@@ -176,9 +176,10 @@
   box-shadow: 0px 103px 80px rgba(27, 22, 50, 0.07), 0px 37.6px 29.2px rgba(27, 22, 50, 0.0483), 0px 18.25px 14.18px rgba(27, 22, 50, 0.0389), 0px 8.95px 6.95px rgba(27, 22, 50, 0.0311), 0px 3.54px 2.75px rgba(27, 22, 50, 0.0217);
 }
 
-/* Geospatial (first 3D tile): slight zoom-in on home grid */
+/* Geospatial tile: slight zoom-in on home grid */
 .portfolio__item a[href="/project/geospatial3d"].portfolio__link {
   overflow: hidden;
+  padding-top: 45%;
 }
 
 .portfolio__item a[href="/project/geospatial3d"] video.portfolio__image {

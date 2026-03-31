@@ -34,7 +34,7 @@
     <div class="container">
       <div class="row">
         {% for photo in site.data.settings.portfolio.portfolio__gallery %}
-        <div class="col col-4 col-d-6 col-t-12">
+        <div class="col {% if photo.title == "Geospatial 3D Visualizer" %}col-12 col-d-12 col-t-12{% else %}col-4 col-d-6 col-t-12{% endif %}">
           <div class="portfolio__item">
             {% if photo.title == "Bubble Chart Visualization" %}
               <a href="/project/bubble" class="portfolio__link">
