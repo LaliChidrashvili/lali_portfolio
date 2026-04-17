@@ -1,4 +1,17 @@
 /* Portfolio */
+.section.portfolio {
+  margin-top: 0;
+  margin-bottom: 96px;
+
+  .section__head {
+    margin-bottom: 28px;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    margin-bottom: 72px;
+  }
+}
+
 .portfolio__view {
   padding-left: 20px;
   border-radius: 12px;
