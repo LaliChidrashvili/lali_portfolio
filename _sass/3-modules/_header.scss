@@ -1,12 +1,14 @@
-/* Header */
+/* Header
+   Note: do not use backdrop-filter on .header — in WebKit it creates a containing block for
+   position:fixed descendants, so the mobile .main-nav overlay only covers the bar height while
+   its content overflows on top of the page (no full-screen background). */
 .header {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(244, 246, 249, 0.78);
-  backdrop-filter: blur(14px) saturate(160%);
-  -webkit-backdrop-filter: blur(14px) saturate(160%);
+  background: rgba(244, 246, 249, 0.96);
   border-bottom: 1px solid var(--border-color);
+  box-shadow: 0 1px 0 rgba(15, 23, 42, 0.04);
   transition: background $global-transition, box-shadow $global-transition;
 
   .header__inner {
@@ -52,22 +54,31 @@
 
   @media only screen and (max-width: $desktop) {
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1000;
+    inset: 0;
+    z-index: 5000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin: 0;
+    padding: max(72px, calc(env(safe-area-inset-top, 0px) + 52px)) 12px 16px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    /* სკრიმი მთელ viewport-ზე; თეთრი მხოლოდ .main-nav__box */
+    background-color: rgba(15, 23, 42, 0.32);
     opacity: 0;
     visibility: hidden;
-    /* Solid overlay so hero/chart copy does not show through the menu */
-    background-color: var(--background-alt-color);
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none;
+    pointer-events: none;
+    transition: opacity 0.22s ease, visibility 0.22s ease;
 
     &.is-open {
       opacity: 1;
       visibility: visible;
-      transition: opacity 0.25s ease, visibility 0.25s ease;
+      pointer-events: auto;
     }
 
     .nav__list {
@@ -79,9 +90,9 @@
         margin: 0;
 
         .nav__link {
-          display: inline-block;
-          padding: 20px 0;
-          font-size: 21px;
+          display: block;
+          padding: 14px 0;
+          font-size: 18px;
 
           &:hover {
             &::after {
@@ -136,35 +147,57 @@
 
   @media only screen and (max-width: $desktop) {
     display: block;
-
-    align-items: center;
-    width: 80%;
-    height: 80vh;
-    padding-top: 180px;
-    margin: 0 auto;
-    text-align: center;
+    position: relative;
+    z-index: 1;
+    flex: 0 0 auto;
+    align-self: flex-start;
+    width: 280px;
+    max-width: calc(100vw - 24px);
+    height: auto;
+    min-height: 0;
+    max-height: calc(100vh - 100px);
+    max-height: calc(100dvh - 100px);
+    margin: 0;
+    padding: 44px 22px 20px;
+    text-align: left;
+    overflow-x: hidden;
     overflow-y: auto;
+    background: var(--background-alt-color);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-12px) scale(0.98);
+    opacity: 0;
+    transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.22s ease;
 
     .nav__icon-close {
       display: flex;
       position: absolute;
-      top: 40px;
-      right: 40px;
+      top: 10px;
+      right: 10px;
+      z-index: 2;
+      border: 1px solid var(--border-color);
+      box-shadow: var(--shadow-xs);
     }
 
     .nav__title {
-      display: inline-block;
-      margin-bottom: 20px;
+      display: block;
+      margin-bottom: 8px;
+      padding-right: 40px;
       font-family: $heading-font-family;
-      font-size: 36px;
+      font-size: 13px;
       font-weight: 700;
-      letter-spacing: -1px;
-      color: var(--heading-font-color);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-alt-color);
     }
   }
+}
 
-  @media only screen and (max-width: $tablet) {
-    padding-top: 100px;
+@media only screen and (max-width: $desktop) {
+  .main-nav.is-open .main-nav__box {
+    transform: translateY(0) scale(1);
+    opacity: 1;
   }
 }
 
@@ -240,7 +273,7 @@
 
   @media only screen and (max-width: $desktop) {
     position: relative;
-    z-index: 1001;
+    z-index: 5001;
     margin-left: auto;
     font-size: 26px;
 
@@ -253,5 +286,10 @@
 .main-nav.is-open ~ .nav-button .nav__icon-menu {
   opacity: 0;
   pointer-events: none;
+}
+
+/* Lock page scroll while mobile menu is open */
+html.nav-open {
+  overflow: hidden;
 }
 

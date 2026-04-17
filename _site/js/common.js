@@ -48,11 +48,19 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function menuOpen() {
     menuList.classList.add("is-open");
+    document.documentElement.classList.add("nav-open");
   }
 
   function menuClose() {
     menuList.classList.remove("is-open");
+    document.documentElement.classList.remove("nav-open");
   }
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && menuList.classList.contains("is-open")) {
+      menuClose();
+    }
+  });
 
 
   // Toggle list view
