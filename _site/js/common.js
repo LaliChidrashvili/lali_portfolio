@@ -20,6 +20,14 @@ document.addEventListener("DOMContentLoaded", function() {
     menuClose();
   });
 
+  if (menuList) {
+    menuList.addEventListener("click", function (e) {
+      if (e.target === menuList) {
+        menuClose();
+      }
+    });
+  }
+
   if (portfolioViewButton) {
     portfolioViewButton.addEventListener("click", () => {
       viewToggle();

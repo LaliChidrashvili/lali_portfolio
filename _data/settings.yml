@@ -42,38 +42,39 @@ portfolio:
     - { slug: svelte, label: Svelte & React }
     - { slug: d3, label: Interactive D3.js }
     - { slug: bi, label: BI & Analytics }
-  # "All" grid order: first three tiles = 3D Map → Chord (technical) → Treemap (BI)
+  # "All" grid order: first three tiles = 3D Map → Globe → Treemap (BI)
   portfolio__gallery:
     - image: /images/projects/Geospatial3D/Geospatial.mp4
       video: /images/projects/Geospatial3D/Geospatial.mp4
       title: Geospatial 3D Visualizer
       description: Interactive 3D map with Mapbox, search, and education layers
       filters: [geospatial]
-    - image: /images/projects/chord/chord.mp4?v=4
-      video: /images/projects/chord/chord.mp4?v=4
-      title: Chord Chart Visualization
-      description: Interactive chord diagram visualization with D3.js
-      filters: [d3]
-    - image: /images/projects/treemap/treemap.mp4
-      video: /images/projects/treemap/treemap.mp4
-      title: Treemap Chart Visualization
-      description: Interactive treemap visualization with D3.js
-      filters: [bi, d3]
     - image: /images/projects/globe/globe.mp4
       video: /images/projects/globe/globe.mp4
       title: Globe Visualization
       description: Interactive globe visualization with Svelte and Plotly
       filters: [geospatial, svelte, d3]
-    - image: /images/projects/network/network.mp4
-      video: /images/projects/network/network.mp4
-      title: Network Chart Visualization
-      description: Interactive network graph visualization with D3.js
+    - image: /images/projects/treemap/treemap.mp4
+      video: /images/projects/treemap/treemap.mp4
+      title: Treemap Chart Visualization
+      description: Interactive treemap visualization with D3.js
+      filters: [bi, d3]
+    - image: /images/projects/chord/chord.mp4
+      video: /images/projects/chord/chord.mp4
+      media_cache_bust: 4
+      title: Chord Chart Visualization
+      description: Interactive chord diagram visualization with D3.js
       filters: [d3]
     - image: /images/projects/bubble/bubble.mp4
       video: /images/projects/bubble/bubble.mp4
       title: Bubble Chart Visualization
       description: Interactive bubble chart visualization with D3.js
       filters: [bi, d3]
+    - image: /images/projects/network/network.mp4
+      video: /images/projects/network/network.mp4
+      title: Network Chart Visualization
+      description: Interactive network graph visualization with D3.js
+      filters: [d3]
     - image: /images/projects/gantt/gantt.mp4
       video: /images/projects/gantt/gantt.mp4
       title: Gantt Chart Visualization

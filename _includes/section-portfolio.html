@@ -78,7 +78,7 @@
               <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
               {% if photo.image contains '.mp4' %}
                 <video class="portfolio__image lazy" muted loop autoplay preload="none">
-                  <source src="{{photo.image}}" type="video/mp4">
+                  <source src="{{ photo.image }}{% if photo.media_cache_bust %}?v={{ photo.media_cache_bust }}{% endif %}" type="video/mp4">
                 </video>
               {% else %}
                 <img data-src="{{photo.image}}" class="portfolio__image lazy" alt="{{photo.title}}">
