@@ -18,7 +18,7 @@ layout: default
         <h1 class="post__title">{{ page.title | escape }}</h1>
 
         <div class="post__meta">
-          <a class="post__author" href="https://www.upwork.com/freelancers/~01c50f4559f0ec122c?mp_source=share" target="_blank" rel="noopener noreferrer">{{site.data.settings.author}}</a> – <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+          <a class="post__author" href="https://www.upwork.com/freelancers/~01c50f4559f0ec122c?mp_source=share" target="_blank" rel="noopener noreferrer">{{site.data.settings.author}}</a> - <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
         </div>
 
       </div>
@@ -46,5 +46,7 @@ layout: default
 <!-- end post -->
 
 {% include section-related-posts.html %}
+
+{% include section-cta.html %}
 
 {% include section-subscribe.html %}

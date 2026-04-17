@@ -26,6 +26,26 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   }
 
+  var filterButtons = document.querySelectorAll(".portfolio__filter-btn");
+  if (filterButtons.length) {
+    filterButtons.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var filter = btn.getAttribute("data-filter");
+        filterButtons.forEach(function (b) {
+          var active = b === btn;
+          b.classList.toggle("is-active", active);
+          b.setAttribute("aria-selected", active ? "true" : "false");
+        });
+        document.querySelectorAll(".portfolio__grid-item").forEach(function (item) {
+          var raw = item.getAttribute("data-portfolio-tags") || "";
+          var tags = raw.split(/\s+/).filter(Boolean);
+          var show = filter === "all" || tags.indexOf(filter) !== -1;
+          item.classList.toggle("portfolio__grid-item--hidden", !show);
+        });
+      });
+    });
+  }
+
   function menuOpen() {
     menuList.classList.add("is-open");
   }
@@ -94,15 +114,26 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
   /* =================================
-  // Smooth scroll to the tags page
+  // Smooth scroll on tags page (hash IDs can contain . + etc. - not valid in querySelector)
   ================================= */
-  document.querySelectorAll(".tag__link").forEach(anchor => {
+  document.querySelectorAll(".tag__link").forEach(function (anchor) {
     anchor.addEventListener("click", function (e) {
       e.preventDefault();
-
-      document.querySelector(this.getAttribute("href")).scrollIntoView({
-        behavior: "smooth"
-      });
+      var href = this.getAttribute("href");
+      if (!href) return;
+      var hashIdx = href.lastIndexOf("#");
+      if (hashIdx === -1) return;
+      var rawFragment = href.slice(hashIdx + 1);
+      var decoded;
+      try {
+        decoded = decodeURIComponent(rawFragment);
+      } catch (err) {
+        decoded = rawFragment;
+      }
+      var target = document.getElementById(rawFragment) || document.getElementById(decoded);
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
     });
   });
 

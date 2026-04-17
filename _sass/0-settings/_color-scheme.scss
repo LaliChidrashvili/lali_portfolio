@@ -1,4 +1,4 @@
-/* Color variables — თანამედროვე, დახვეწილი პალიტრა */
+/* Color variables - refined light theme palette */
 :root {
   --black: #0f172a;
   --dark: #1e293b;
@@ -38,9 +38,9 @@
   --radius-md: 14px;
   --radius-lg: 20px;
 
-  /* Globe demo: ვიდეო/Plotly ფონი, რომ letterbox არ იყოს თეთრი */
+  /* Globe demo: video/Plotly matte so letterboxing is not bright white */
   --globe-demo-bg: #3b5264;
 
-  /* Geospatial / Mapbox: მუქი ფონი, cover-ისთვის ზოლების შესავსებად */
+  /* Geospatial / Mapbox: dark matte for object-fit: cover (no white bars) */
   --geospatial-demo-bg: #1e2328;
 }

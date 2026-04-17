@@ -48,7 +48,7 @@
   transform: translate(0);
   display: block;
   height: 0;
-  margin-bottom: 20px;
+  margin-bottom: 32px;
   padding-bottom: 62%;
   border-radius: var(--radius-md);
   overflow: hidden;
@@ -77,11 +77,12 @@
 }
 
 .article__content {
+  padding-top: 4px;
   text-align: center;
 }
 
 .article__title {
-  margin-bottom: 10px;
+  margin-bottom: 14px;
   font-size: 22px;
   font-weight: 600;
   letter-spacing: $heading-letter-spacing;
@@ -99,12 +100,13 @@
 
 .article__excerpt {
   margin-bottom: 0;
+  padding: 0 4px;
   font-size: 15px;
-  line-height: 1.5;
+  line-height: 1.65;
   color: var(--text-alt-color);
 }
 
-/* Globe: პრევიუ უჯრა იგივე მუქი ფონით რაც ვიდეოში */
+/* Globe: preview tile uses same dark matte as the video */
 .article--globe .article__image {
   background: var(--globe-demo-bg);
   border-color: rgba(255, 255, 255, 0.12);
@@ -119,7 +121,7 @@
   border-color: rgba(255, 255, 255, 0.2);
 }
 
-/* Geospatial: პრევიუ სრულად ივსება, ფონი როგორც მაპის UI */
+/* Geospatial: preview fills tile; matte matches map UI */
 .article--geospatial .article__image {
   background: var(--geospatial-demo-bg);
   border-color: rgba(255, 255, 255, 0.1);

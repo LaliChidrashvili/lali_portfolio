@@ -1,0 +1,7 @@
+# Jekyll (keep _site/ tracked if you deploy built files from the repo)
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler — install with `bundle install` (do not commit gems)
+vendor/bundle/

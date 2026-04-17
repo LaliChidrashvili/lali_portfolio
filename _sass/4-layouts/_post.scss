@@ -52,7 +52,7 @@
   background: var(--globe-demo-bg);
 }
 
-/* Geospatial: ვიდეო აავსებს უჯრას (არ ჩანდეს ზედა/ქვედა თეთრი ზოლები) */
+/* Geospatial: video fills slot (no top/bottom white letterbox bars) */
 .page-geospatial .post__content video {
   object-fit: cover;
   background: var(--geospatial-demo-bg);

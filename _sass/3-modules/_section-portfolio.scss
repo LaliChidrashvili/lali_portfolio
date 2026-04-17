@@ -12,6 +12,71 @@
   }
 }
 
+.section__head--portfolio {
+  align-items: flex-start;
+
+  .section__head-text {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .section__title {
+    margin-bottom: 0;
+  }
+
+  @media only screen and (min-width: 1025px) {
+    align-items: center;
+  }
+}
+
+.portfolio__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+
+  @media only screen and (min-width: 1025px) {
+    margin-top: 10px;
+  }
+}
+
+.portfolio__filter-btn {
+  padding: 6px 12px;
+  font-family: $base-font-family;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  text-align: center;
+
+  @media only screen and (max-width: $mobile) {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+  color: var(--text-alt-color);
+  background: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: color $global-transition, background $global-transition, border-color $global-transition, box-shadow $global-transition;
+
+  &:hover {
+    color: var(--heading-font-color);
+    border-color: var(--border-color-alt);
+  }
+
+  &.is-active {
+    color: var(--white);
+    background: var(--brand-color);
+    border-color: var(--brand-color);
+    box-shadow: var(--shadow-xs);
+  }
+}
+
+.portfolio__grid-item--hidden {
+  display: none !important;
+}
+
 .portfolio__view {
   padding-left: 16px;
   border-radius: var(--radius-sm);
@@ -206,7 +271,7 @@
   box-shadow: var(--shadow-sm);
 }
 
-/* Geospatial tile: fill cell, მუქი ფონი ზოლების გარეშე */
+/* Geospatial tile: fill cell; dark matte, no gutter bars */
 .portfolio__item a[href="/project/geospatial3d"].portfolio__link {
   overflow: hidden;
   padding-top: 45%;
@@ -222,7 +287,7 @@
   box-shadow: none;
 }
 
-// Globe: ფირფიტა და ვიდეო ერთი ფონით (არ ჩანდეს მოჭრილი/თეთრი ზოლები)
+// Globe: tile and video share one matte (no harsh crop / white bars)
 .portfolio__item a[href="/project/globe"].portfolio__link {
   background: var(--globe-demo-bg);
   border-color: rgba(255, 255, 255, 0.12);

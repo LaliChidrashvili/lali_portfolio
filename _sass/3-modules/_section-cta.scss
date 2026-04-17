@@ -1,0 +1,61 @@
+/* CTA block: after portfolio on home, after related posts on project pages */
+.cta-section {
+  margin-top: -24px;
+  margin-bottom: 96px;
+
+  @media only screen and (max-width: $mobile) {
+    margin-bottom: 72px;
+  }
+}
+
+.cta-section__inner {
+  padding: 40px 36px;
+  text-align: center;
+  border-radius: var(--radius-lg);
+  background: var(--background-alt-color);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+
+  @media only screen and (max-width: $mobile) {
+    padding: 32px 22px;
+  }
+}
+
+.cta-section__title {
+  margin-bottom: 12px;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: $heading-letter-spacing;
+  line-height: 1.25;
+  color: var(--heading-font-color);
+
+  @media only screen and (max-width: $mobile) {
+    font-size: 22px;
+  }
+}
+
+.cta-section__title-line {
+  display: block;
+  margin-top: 4px;
+  color: var(--link-color-hover);
+}
+
+.cta-section__lead {
+  max-width: 520px;
+  margin: 0 auto 24px;
+  font-size: 17px;
+  line-height: 1.5;
+  color: var(--text-alt-color);
+
+  @media only screen and (max-width: $mobile) {
+    font-size: 16px;
+  }
+}
+
+.cta-section__btn {
+  min-width: 200px;
+}
+
+.related-posts + .cta-section {
+  margin-top: 0;
+}

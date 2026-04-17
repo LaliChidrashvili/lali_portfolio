@@ -48,9 +48,9 @@
     margin-bottom: 14px;
     font-family: $heading-font-family;
     font-size: 44px;
-    font-weight: 600;
-    letter-spacing: $heading-letter-spacing;
-    line-height: 1.15;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1.12;
     color: var(--heading-font-color);
 
     @media only screen and (max-width: 1140px) {
@@ -73,8 +73,11 @@
 
   .hero__description {
     margin-bottom: 0;
-    font-size: 18px;
-    line-height: 1.4;
+    font-family: $base-font-family;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -0.011em;
+    line-height: 1.5;
     color: var(--text-color);
 
     @media only screen and (max-width: $desktop) {

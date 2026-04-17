@@ -4,8 +4,18 @@
   <div class="container">
     <div class="row">
       <div class="col col-12">
-        <div class="section__head">
-          <h2 class="section__title">{{ site.data.settings.portfolio.portfolio__title }}</h2>
+        <div class="section__head section__head--portfolio">
+          <div class="section__head-text">
+            <h2 class="section__title">{{ site.data.settings.portfolio.portfolio__title }}</h2>
+            {% if site.data.settings.portfolio.portfolio_filter_categories %}
+            <div class="portfolio__filters" role="tablist" aria-label="Filter portfolio projects">
+              <button type="button" class="portfolio__filter-btn is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+              {% for cat in site.data.settings.portfolio.portfolio_filter_categories %}
+              <button type="button" class="portfolio__filter-btn" data-filter="{{ cat.slug }}" role="tab" aria-selected="false">{{ cat.label }}</button>
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
           <div class="portfolio__view">
             <div class="portfolio__toggle">
               <div class="icon">
@@ -34,7 +44,7 @@
     <div class="container">
       <div class="row">
         {% for photo in site.data.settings.portfolio.portfolio__gallery %}
-        <div class="col {% if photo.title == "Geospatial 3D Visualizer" %}col-12 col-d-12 col-t-12{% else %}col-4 col-d-6 col-t-12{% endif %}">
+        <div class="col portfolio__grid-item {% if photo.title == "Geospatial 3D Visualizer" %}col-12 col-d-12 col-t-12{% else %}col-4 col-d-6 col-t-12{% endif %}"{% if photo.filters %} data-portfolio-tags="{{ photo.filters | join: ' ' }}"{% endif %}>
           <div class="portfolio__item">
             {% if photo.title == "Bubble Chart Visualization" %}
               <a href="/project/bubble" class="portfolio__link">

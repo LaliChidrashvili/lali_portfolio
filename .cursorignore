@@ -1,0 +1,5 @@
+# Bundled Ruby gems — third-party code; not this repo source
+vendor/
+
+# Jekyll cache
+.jekyll-cache/
