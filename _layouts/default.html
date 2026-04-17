@@ -3,7 +3,7 @@
 
 {% include head.html %}
 
-<body>
+<body class="{% if page.permalink == '/project/globe' %}page-globe{% elsif page.permalink == '/project/geospatial3d' %}page-geospatial{% endif %}">
 
   {% if site.data.settings.google-analytics %}
     {% include google-analytics.html %}

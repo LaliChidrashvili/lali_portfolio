@@ -1,4 +1,4 @@
-/* Hero — კომპაქტური, რომ პორტფოლიო ოდნავ ჩანდეს პირველ ეკრანზე */
+/* Hero */
 .hero {
   margin: 32px 0 28px;
 
@@ -13,8 +13,10 @@
 
 .hero__frame {
   padding: 16px 24px;
-  border-radius: 16px;
+  border-radius: var(--radius-lg);
   background: var(--background-alt-color);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
 
   @media only screen and (max-width: $tablet) {
     padding: 14px 20px;
@@ -44,7 +46,10 @@
 
   .hero__title {
     margin-bottom: 14px;
+    font-family: $heading-font-family;
     font-size: 44px;
+    font-weight: 600;
+    letter-spacing: $heading-letter-spacing;
     line-height: 1.15;
     color: var(--heading-font-color);
 
@@ -91,10 +96,11 @@
   margin-right: auto;
   margin-left: 0;
   line-height: 0;
-  border-radius: 16px;
+  border-radius: var(--radius-md);
   overflow: hidden;
-  background: var(--background-color);
-  box-shadow: 0px 48px 40px rgba(27, 22, 50, 0.06), 0px 18px 14px rgba(27, 22, 50, 0.04), 0px 6px 5px rgba(27, 22, 50, 0.03);
+  background: var(--background-alt-color);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-md);
 
   @media only screen and (max-width: $tablet) {
     justify-content: center;

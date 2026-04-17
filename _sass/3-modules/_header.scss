@@ -1,14 +1,23 @@
 /* Header */
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(244, 246, 249, 0.78);
+  backdrop-filter: blur(14px) saturate(160%);
+  -webkit-backdrop-filter: blur(14px) saturate(160%);
+  border-bottom: 1px solid var(--border-color);
+  transition: background $global-transition, box-shadow $global-transition;
+
   .header__inner {
     position: relative;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding: 40px $base-spacing-unit;
+    padding: 22px $base-spacing-unit;
   
     @media only screen and (max-width: $tablet) {
-      padding: 28px $base-spacing-unit;
+      padding: 18px $base-spacing-unit;
     }
   }
 }
@@ -17,19 +26,19 @@
 .logo__link {
   padding: 4px 0;
   font-family: $heading-font-family;
-  font-size: 36px;
-  letter-spacing: -1px;
+  font-size: 32px;
+  letter-spacing: $heading-letter-spacing;
   line-height: 1;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--heading-font-color);
-  transition: none;
+  transition: color $global-transition;
 
   &:hover {
     color: var(--link-color-hover);
   }
 
   @media only screen and (max-width: $mobile) {
-    font-size: 32px;
+    font-size: 28px;
   }
 }
 
@@ -50,7 +59,8 @@
     z-index: 100;
     opacity: 0;
     visibility: hidden;
-    background-color: var(--background-color);
+    background-color: rgba(244, 246, 249, 0.96);
+    backdrop-filter: blur(8px);
 
     &.is-open {
       opacity: 1;
@@ -172,10 +182,11 @@
     .nav__link {
       position: relative;
       padding: 4px 0;
-      font-size: 16px;
+      font-size: 15px;
       line-height: 1;
-      font-weight: 700;
-      transition: none;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      transition: color $global-transition;
 
       &.nav__link--current {
         &::after {

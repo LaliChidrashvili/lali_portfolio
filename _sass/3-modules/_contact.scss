@@ -16,8 +16,9 @@
   padding: 20px;
   font-size: 14px;
   font-weight: 500;
-  border: 2px solid var(--border-color);
-  border-radius: 2px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-xs);
   outline: none;
   transition: .25s ease-in-out;
   resize: vertical;
@@ -29,6 +30,7 @@
   }
 
   &:focus {
-    border-color: var(--heading-font-color);
+    border-color: var(--brand-color);
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
   }
 }

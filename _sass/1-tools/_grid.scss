@@ -1,6 +1,6 @@
 /* Grid */
 $columns: 12;
-$container-base-width: 1140px;
+$container-base-width: 1180px;
 $container-offset: $base-spacing-unit;
 
 $desktop: 1024px;
@@ -16,7 +16,7 @@ $mq: ( $mobile:$columns, $tablet:$columns, $desktop:$columns );
   margin: 0 auto;
 
   @media only screen and (max-width: 1140px) {
-    max-width: 1000px;
+    max-width: 1040px;
   }
 
   @media only screen and (max-width: $desktop) {
