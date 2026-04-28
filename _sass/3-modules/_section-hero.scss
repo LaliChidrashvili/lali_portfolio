@@ -32,7 +32,7 @@
 }
 
 .hero__col--photo {
-  @media only screen and (min-width: $tablet + 1px) {
+  @media only screen and (min-width: $hero-split-min) {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -40,7 +40,7 @@
 }
 
 .hero__col--text {
-  @media only screen and (min-width: $tablet + 1px) {
+  @media only screen and (min-width: $hero-split-min) {
     display: flex;
     flex-direction: column;
     justify-content: center;
