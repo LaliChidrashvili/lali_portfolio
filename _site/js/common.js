@@ -1,16 +1,14 @@
 document.addEventListener("DOMContentLoaded", function() {
   'use strict';
 
-  var html = document.querySelector('html'),
-    menuOpenIcon = document.querySelector(".nav__icon-menu"),
+  var menuOpenIcon = document.querySelector(".nav__icon-menu"),
     menuCloseIcon = document.querySelector(".nav__icon-close"),
     menuList = document.querySelector(".main-nav"),
-    portfolioViewButton = document.querySelector('.portfolio__toggle'),
     btnScrollToTop = document.querySelector(".top");
 
 
   /* =======================================================
-  // Menu + Toggle list view
+  // Menu
   ======================================================= */
   menuOpenIcon.addEventListener("click", () => {
     menuOpen();
@@ -25,12 +23,6 @@ document.addEventListener("DOMContentLoaded", function() {
       if (e.target === menuList) {
         menuClose();
       }
-    });
-  }
-
-  if (portfolioViewButton) {
-    portfolioViewButton.addEventListener("click", () => {
-      viewToggle();
     });
   }
 
@@ -69,20 +61,6 @@ document.addEventListener("DOMContentLoaded", function() {
       menuClose();
     }
   });
-
-
-  // Toggle list view
-  function viewToggle() {
-    if (html.classList.contains('view-list')) {
-      html.classList.remove('view-list');
-      localStorage.removeItem("classView");
-      document.documentElement.removeAttribute("list");
-    } else {
-      html.classList.add('view-list');
-      localStorage.setItem("classView", "list");
-      document.documentElement.setAttribute("list", "");
-    }
-  }
 
 
   /* =======================
