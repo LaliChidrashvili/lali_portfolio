@@ -28,14 +28,26 @@
 }
 
 .hero__row {
-  align-items: flex-end;
+  align-items: stretch;
+}
 
-  @media only screen and (max-width: $tablet) {
-    align-items: stretch;
+.hero__col--photo {
+  @media only screen and (min-width: $tablet + 1px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 }
 
 .hero__col--text {
+  @media only screen and (min-width: $tablet + 1px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0;
+    margin-left: -116px;
+  }
+
   @media only screen and (max-width: $tablet) {
     order: -1;
   }
